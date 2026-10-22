@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quizcraft · A little practice. A lot of progress.</title>
+  <link rel="stylesheet" href="{% static 'app.css' %}">
+  <script src="{% static 'app.js' %}" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="/">Q<span>Quizcraft</span></a><nav aria-label="Main navigation" id="nav"></nav></header>
+  <main>
+    <div id="notice" role="alert" tabindex="-1" hidden></div>
+    <div id="app"></div>
+  </main>
+  <footer>Built for curious minds. Powered by Django REST Framework.</footer>
+</body>
+</html>
