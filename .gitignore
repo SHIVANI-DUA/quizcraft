@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.secret_key
+staticfiles/
+
+*.sqlite3-*
+.env.*
+!.env.example
